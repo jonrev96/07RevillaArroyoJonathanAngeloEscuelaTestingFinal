@@ -16,6 +16,28 @@ Incluye:
 - Configuración centralizada (`karate-config.js`)
 - Reporte HTML automático
 
+## 📊 Cobertura de pruebas
+
+Se implementaron múltiples escenarios para cada módulo:
+
+### User
+- Creación de usuario
+- Obtención de usuario
+- Login exitoso
+- Actualización de usuario
+- Eliminación de usuario
+- Consulta de usuario inexistente (404)
+
+### Store
+- Creación de orden
+- Obtención de orden
+- Eliminación de orden
+- Consulta de orden inexistente (404)
+- Consulta con ID inválido
+- Consulta de inventario
+
+Se incluyen escenarios Happy Path y Unhappy Path utilizando tags para ejecución selectiva.
+
 ---
 
 ## 🧪 ¿Qué valida la automatización?
